@@ -1,0 +1,6 @@
+#!/bin/bash -
+
+for string in "hello" "world" "..."; 
+do
+    echo ${string};
+done

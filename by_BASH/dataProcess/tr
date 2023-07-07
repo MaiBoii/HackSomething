@@ -1,0 +1,5 @@
+#!/bin/bash -
+#tr = Change or Map specific character to other Char
+# 이 명령은 또한 원치 않는 문자나 여분의 문자를 제거하는 데도 흔히 쓰임.
+
+tr '\\:' '/|' < texts/infile.txt > texts/outfile.txt

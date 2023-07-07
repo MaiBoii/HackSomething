@@ -1,0 +1,3 @@
+#!/bin/bash -
+#awk는 단순한 명령어라기보다는 텍스트 처리를 담당하는 하나의 언어라고 볼 정도로 기능이 다양함.
+awk '$0 == "Mike Miller" {print $1}' awkusers.txt  
