@@ -1,5 +1,5 @@
 #!/bin/bash
-#문자열을 치환하는 기능 제공
+#문자열을 "치환"하는 기능 제공
 #s = substitude: 치환 내지는 대입
 #g means global, this plag makes ALL sections which match with pattern we wrote
 sed 's/10\.0\.4\.35/10.0.4.27/g' texts/ips.txt
