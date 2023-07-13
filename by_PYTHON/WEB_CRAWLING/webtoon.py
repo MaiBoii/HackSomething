@@ -15,8 +15,7 @@ driver=webdriver.Chrome(service=service,options=options)
 f= open("./계백순 제목.txt", "a", encoding='utf-8')
 page_num = 1
 while True:
-    url = f'https://comic.naver.com/webtoon/list?titleId=811721&page={page_num}'
-
+    url = f'https://comic.naver.com/webtoon/list?titleId=811721&page={page_num}' 
     driver.get(url)
     last_height = driver.execute_script("return document.documentElement.scrollHeight")
     while True:
