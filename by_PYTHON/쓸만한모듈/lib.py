@@ -1,6 +1,5 @@
 import socket
 import random
-from faker import 
 
 HOST = '192.168.1.197'
 PORT = 50007
